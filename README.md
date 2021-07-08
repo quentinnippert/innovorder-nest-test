@@ -35,3 +35,11 @@ Once identified you will be able to make your first requests using the route **/
 
 Example : ``/products/04963406``
 **Make sure to use the access_token you received when you logged in.**
+
+### PUT /user/update
+
+`{
+  "username": "example",
+  "password": "password",
+  "email": "example@email.com"
+  }`
