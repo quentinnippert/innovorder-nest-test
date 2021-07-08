@@ -11,7 +11,7 @@ Once identified you will be able to make your first requests using the route **/
 
 ``/products/04963406``
 
-### Make sure to use the port 3001
+### Make sure to use the PORT :3001
 
 ## The data the routes expect
 
