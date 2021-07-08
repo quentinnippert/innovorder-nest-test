@@ -27,9 +27,18 @@ Once identified you will be able to make your first requests using the route **/
   "username": "example",
   "password": "password"
   }`
+  
 **Don't forget to copy the access_token you received on the response if you are using postman or insomnia.**
   
 ### GET /products/:id     
 
 Example : ``/products/04963406``
 **Make sure to use the access_token you received when you logged in.**
+
+### PUT /user/updated
+
+`{
+  "username": "example",
+  "password": "password",
+  "email": "example@email.com"
+  }`
